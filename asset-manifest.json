@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fashion-store-app/static/css/main.d49db3f6.chunk.css",
-    "main.js": "/fashion-store-app/static/js/main.9ade223c.chunk.js",
-    "main.js.map": "/fashion-store-app/static/js/main.9ade223c.chunk.js.map",
-    "runtime~main.js": "/fashion-store-app/static/js/runtime~main.5de37778.js",
-    "runtime~main.js.map": "/fashion-store-app/static/js/runtime~main.5de37778.js.map",
-    "static/js/2.fa3cba9f.chunk.js": "/fashion-store-app/static/js/2.fa3cba9f.chunk.js",
-    "static/js/2.fa3cba9f.chunk.js.map": "/fashion-store-app/static/js/2.fa3cba9f.chunk.js.map",
-    "index.html": "/fashion-store-app/index.html",
-    "precache-manifest.516221a82c21fbc6bbd8ac2015ab684b.js": "/fashion-store-app/precache-manifest.516221a82c21fbc6bbd8ac2015ab684b.js",
-    "service-worker.js": "/fashion-store-app/service-worker.js",
-    "static/css/main.d49db3f6.chunk.css.map": "/fashion-store-app/static/css/main.d49db3f6.chunk.css.map"
+    "main.css": "/star-war-api/static/css/main.d49db3f6.chunk.css",
+    "main.js": "/star-war-api/static/js/main.7c56b6ae.chunk.js",
+    "main.js.map": "/star-war-api/static/js/main.7c56b6ae.chunk.js.map",
+    "runtime~main.js": "/star-war-api/static/js/runtime~main.93d62f92.js",
+    "runtime~main.js.map": "/star-war-api/static/js/runtime~main.93d62f92.js.map",
+    "static/js/2.fa3cba9f.chunk.js": "/star-war-api/static/js/2.fa3cba9f.chunk.js",
+    "static/js/2.fa3cba9f.chunk.js.map": "/star-war-api/static/js/2.fa3cba9f.chunk.js.map",
+    "index.html": "/star-war-api/index.html",
+    "precache-manifest.0faffade3b53df17ccb57013838ecc04.js": "/star-war-api/precache-manifest.0faffade3b53df17ccb57013838ecc04.js",
+    "service-worker.js": "/star-war-api/service-worker.js",
+    "static/css/main.d49db3f6.chunk.css.map": "/star-war-api/static/css/main.d49db3f6.chunk.css.map"
   }
 }
