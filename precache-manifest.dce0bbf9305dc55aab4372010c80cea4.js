@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c548be94c22578193b4d534db55161ae",
+    "revision": "cd36d1e4b4c52e4229802a3078daa698",
     "url": "/star-war-api/index.html"
   },
   {
-    "revision": "3a679790464b80b4c111",
+    "revision": "c67b2304d022fd566ccc",
     "url": "/star-war-api/static/css/main.c83306f6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star-war-api/static/js/2.48bc4e6f.chunk.js"
   },
   {
-    "revision": "3a679790464b80b4c111",
-    "url": "/star-war-api/static/js/main.d1e5ed02.chunk.js"
+    "revision": "c67b2304d022fd566ccc",
+    "url": "/star-war-api/static/js/main.706384c7.chunk.js"
   },
   {
     "revision": "fe861f5955a6e8f3d4de",

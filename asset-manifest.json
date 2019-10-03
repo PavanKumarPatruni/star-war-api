@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/star-war-api/static/css/main.c83306f6.chunk.css",
-    "main.js": "/star-war-api/static/js/main.d1e5ed02.chunk.js",
-    "main.js.map": "/star-war-api/static/js/main.d1e5ed02.chunk.js.map",
+    "main.js": "/star-war-api/static/js/main.706384c7.chunk.js",
+    "main.js.map": "/star-war-api/static/js/main.706384c7.chunk.js.map",
     "runtime~main.js": "/star-war-api/static/js/runtime~main.3a78d645.js",
     "runtime~main.js.map": "/star-war-api/static/js/runtime~main.3a78d645.js.map",
     "static/js/2.48bc4e6f.chunk.js": "/star-war-api/static/js/2.48bc4e6f.chunk.js",
     "static/js/2.48bc4e6f.chunk.js.map": "/star-war-api/static/js/2.48bc4e6f.chunk.js.map",
     "index.html": "/star-war-api/index.html",
-    "precache-manifest.090b1143916b1741c783265ba71ff2ce.js": "/star-war-api/precache-manifest.090b1143916b1741c783265ba71ff2ce.js",
+    "precache-manifest.dce0bbf9305dc55aab4372010c80cea4.js": "/star-war-api/precache-manifest.dce0bbf9305dc55aab4372010c80cea4.js",
     "service-worker.js": "/star-war-api/service-worker.js",
     "static/css/main.c83306f6.chunk.css.map": "/star-war-api/static/css/main.c83306f6.chunk.css.map"
   }
