@@ -1,7 +1,6 @@
 import {
     LOGIN_USER,
-    LOGOUT_USER,
-    ADD_MESSAGE
+    LOGOUT_USER
 
 } from './actions';
 
@@ -16,7 +15,7 @@ const reducer = (state = initState, action) => {
         case LOGIN_USER : {
             let  { isLogin } = state;
             isLogin = !isLogin;
-            let { user } = action;
+            const { user } = action;
             return Object.assign({}, state, { user, isLogin });
         }
         case LOGOUT_USER : {
@@ -25,12 +24,7 @@ const reducer = (state = initState, action) => {
             userName = "";
             return Object.assign({}, state, { userName, isLogin });
         }
-        case ADD_MESSAGE: {
-            let  { messages } = state;
-            let { message } = action;
-            messages.push(message);
-            return Object.assign({}, state, { messages });
-        }
+   
         default:
             return state;
     }

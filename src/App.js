@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
-import './App.css';
+import './app.scss';
 
-import Login from "./components/Login";
-import Dashboard from "./components/Dashboard";
-import NotFound from './components/NotFound';
+import Login from "./components/login/Login";
+import Dashboard from "./components/dashboard/Dashboard";
+import NotFound from './components/not_found/NotFound';
 
-function App() {
+const App = () => {
 
   return (
     <Router basename={process.env.PUBLIC_URL}>

@@ -1,0 +1,40 @@
+@import "./components/header/styles.scss";
+
+@import "./components/dashboard/styles.scss";
+
+@import "./components/login/styles.scss";
+
+@import "./components/modal/styles.scss";
+
+@import "./components/not_found/styles.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #cc2b5e;
+  background: -webkit-linear-gradient(to right, #cc2b5e, #753a88);
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+#root {
+  max-width: 980px;
+  margin: auto;
+}
+
+button {
+  background: #ffffff;
+  color: #cc2b5e;
+  padding: 10px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:focus {
+  box-shadow: 0px 1px 7px rgb(184, 47, 103)
+}

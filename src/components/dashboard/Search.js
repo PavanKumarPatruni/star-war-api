@@ -1,8 +1,6 @@
 import React from 'react';
 
-import Planet from './Planet';
-import Modal from './Modal';
-import PlanetDetails from './PlanetDetails';
+import PlanetList from './PlanetList';
 
 let timeout;
 
@@ -14,9 +12,7 @@ class Search extends React.Component {
         this.state = {
             text: "t",
             planets: [],
-            loading: false,
-            showModal: false,
-            selectedPlanet: {}
+            loading: false
         };
     }
 
@@ -25,7 +21,7 @@ class Search extends React.Component {
     }
 
     onTextChange = (e) => {
-        let text = e.target.value;
+        const text = e.target.value;
 
         this.setState({
             text,
@@ -46,7 +42,7 @@ class Search extends React.Component {
     }
     
     onSearch = () => {
-        let { text } = this.state;
+        const { text } = this.state;
 
         if (text.length > 0) {
             fetch(`https://swapi.co/api/planets?search=${text}`)
@@ -67,51 +63,17 @@ class Search extends React.Component {
         }
     }
 
-    onModalClose = () => {
-        this.setState({
-            showModal: false,
-            selectedPlanet: {}
-        });
-    }
-
-    onPlanetClick = planet => {
-
-        console.log("lksjdlkajsdlajsldjlas");
-
-        this.setState({
-            showModal: true,
-            selectedPlanet: planet
-        });
-    }
-
     render() {
 
-        let { planets, loading, text, showModal, selectedPlanet } = this.state;
+        const { planets, loading, text } = this.state;
 
         let listComponents = null;
         if (loading) {
             listComponents = (<div className="not-found no-result">
                                 <h1>Searching planets</h1>
                             </div>);
-        } else if (planets.length === 0) {
-            listComponents = (<div className="not-found no-result">
-                                <h1>No results</h1>
-                            </div>);
         } else {
-            let list = planets.map(item => {
-                return <Planet key={item.name} value={item} onPlanetClick={this.onPlanetClick}></Planet>;
-            })
-
-            listComponents = (
-                <React.Fragment>
-                    <div className="searched-for">Search keyword: <span>{text}</span></div>
-                    <div className="search-results">
-                    {
-                        list
-                    }
-                    </div>
-                </React.Fragment>
-            );
+            listComponents = <PlanetList planets={planets} text={text}/>
         }
 
         return (
@@ -123,17 +85,6 @@ class Search extends React.Component {
                 <div>
                 { listComponents }
                 </div>
-                {
-                    showModal ? 
-                    (
-                      <Modal title={'Details'} onClose={() => this.onModalClose()} width={500}>
-                            <div className="planet">
-                                <Planet value={selectedPlanet}/>
-                                <PlanetDetails value={selectedPlanet} />
-                            </div>
-                      </Modal>
-                    ) : null
-                  }
             </React.Fragment>   
         )
     }

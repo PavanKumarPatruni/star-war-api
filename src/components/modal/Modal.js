@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Modal = (props) => {
+const Modal = props => {
 
     const onClose = event => {
         if (event.target.className === 'modal-view') {
